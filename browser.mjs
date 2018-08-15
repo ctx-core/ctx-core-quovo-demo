@@ -1,5 +1,5 @@
 import '@ctx-core/dom__riot/lib.mjs'
-import './agent.mjs'
+import '@ctx-core/quovo/agent.mjs'
 import '@ctx-core/quovo/quovo-sync-iframe.tag'
 import '@ctx-core/quovo-demo/window.onmessage.quovo.mjs'
 import '@ctx-core/quovo-demo/quovo-demo-page.tag'
