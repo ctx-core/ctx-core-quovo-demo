@@ -14,8 +14,8 @@
 	"dependencies": {
 		"@ctx-core/array": "^2.0.13",
 		"@ctx-core/dom__riot": "^2.0.14",
-		"@ctx-core/html": "^2.0.15",
-		"@ctx-core/layout": "^2.0.15",
+		"@ctx-core/html": "^2.0.16",
+		"@ctx-core/layout": "^2.0.16",
 		"@ctx-core/logger": "^2.1.2",
 		"@ctx-core/object": "^2.0.8",
 		"@ctx-core/promise": "^2.0.15",
@@ -24,7 +24,7 @@
 		"@ctx-core/route": "^2.0.16",
 		"@ctx-core/rpc": "^2.0.16",
 		"@ctx-core/string": "^2.0.14",
-		"esm": "^3.0.77",
+		"esm": "^3.0.79",
 		"fs-promise": "^2.0.3"
 	},
 	"devDependencies": {
