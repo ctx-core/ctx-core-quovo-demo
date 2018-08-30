@@ -3,10 +3,10 @@ import { ensure__router } from '@ctx-core/route/lib.mjs'
 import { __store__route } from '@ctx-core/route/store.mjs'
 import { log, info, debug } from '@ctx-core/logger/lib.mjs'
 const logPrefix = '@ctx-core/quovo-demo/route.mjs'
-export function mount__router__quovo(ctx, ...ARR__ctx__route) {
+export async function mount__router__quovo(ctx, ...ARR__ctx__route) {
 	log(`${logPrefix}|mount__router__quovo`)
 	const { store } = ctx
-	__store__route(store)
+	await __store__route(store)
 	ensure__router(ctx)
 		.add(
 			new RegExp('quovo/users/(.*)'),
