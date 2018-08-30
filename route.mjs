@@ -6,6 +6,7 @@ const logPrefix = '@ctx-core/quovo-demo/route.mjs'
 export function mount__router__quovo(ctx, ...ARR__ctx__route) {
 	log(`${logPrefix}|mount__router__quovo`)
 	const { store } = ctx
+	__store__route(store)
 	ensure__router(ctx)
 		.add(
 			new RegExp('quovo/users/(.*)'),
@@ -26,7 +27,7 @@ export function mount__router__quovo(ctx, ...ARR__ctx__route) {
 	return ctx
 	function route__quovo() {
 		log(`${logPrefix}|route__quovo`)
-		__store__route(store).set__route({
+		store.set__route({
 			route: 'quovo'
 		})
 	}
@@ -43,7 +44,7 @@ export function mount__router__quovo(ctx, ...ARR__ctx__route) {
 		const user_id__quovo =
 			parseInt(user_id__quovo__)
 			|| null
-		__store__route(store).set__route({
+		store.set__route({
 			route,
 			query__route: {
 				user_id__quovo
@@ -65,7 +66,7 @@ export function mount__router__quovo(ctx, ...ARR__ctx__route) {
 		const account_id__quovo =
 			parseInt(account_id__quovo__)
 			|| null
-		__store__route(store).set__route({
+		store.set__route({
 			route: 'account__user__quovo',
 			query__route: {
 				user_id__quovo,
@@ -94,7 +95,7 @@ export function mount__router__quovo(ctx, ...ARR__ctx__route) {
 		const portfolio_id__quovo =
 			parseInt(portfolio_id__quovo__)
 			|| null
-		__store__route(store).set__route({
+		store.set__route({
 			route: 'portfolio__account__user__quovo',
 			query__route: {
 				user_id__quovo,
