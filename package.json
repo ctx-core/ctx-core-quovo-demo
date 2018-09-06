@@ -13,9 +13,9 @@
 	],
 	"dependencies": {
 		"@ctx-core/array": "^3.0.0",
-		"@ctx-core/dom__riot": "^2.0.22",
-		"@ctx-core/html": "^3.0.3",
-		"@ctx-core/layout": "^2.0.28",
+		"@ctx-core/dom__riot": "^2.0.23",
+		"@ctx-core/html": "^3.0.4",
+		"@ctx-core/layout": "^2.0.29",
 		"@ctx-core/logger": "^2.1.7",
 		"@ctx-core/object": "^2.0.13",
 		"@ctx-core/promise": "^2.0.21",
