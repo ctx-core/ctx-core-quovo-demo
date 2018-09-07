@@ -13,7 +13,6 @@
 	],
 	"dependencies": {
 		"@ctx-core/array": "^3.0.0",
-		"@ctx-core/dom__riot": "^2.0.23",
 		"@ctx-core/html": "^3.0.5",
 		"@ctx-core/layout": "^2.0.30",
 		"@ctx-core/logger": "^2.1.7",
