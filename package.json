@@ -20,7 +20,7 @@
 		"@ctx-core/promise": "^2.0.23",
 		"@ctx-core/quovo": "^0.0.1",
 		"@ctx-core/riot": "^2.0.32",
-		"@ctx-core/route": "^3.0.14",
+		"@ctx-core/route": "^3.0.15",
 		"@ctx-core/rpc": "^2.0.32",
 		"@ctx-core/string": "^2.0.21",
 		"esm": "^3.0.84",
