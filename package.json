@@ -12,16 +12,16 @@
 		"quovo"
 	],
 	"dependencies": {
-		"@ctx-core/array": "^3.0.3",
+		"@ctx-core/array": "^4.0.0",
 		"@ctx-core/html": "^4.0.8",
-		"@ctx-core/layout": "^3.0.0",
+		"@ctx-core/layout": "^3.0.1",
 		"@ctx-core/logger": "^2.2.0",
 		"@ctx-core/object": "^2.0.15",
 		"@ctx-core/promise": "^2.0.24",
 		"@ctx-core/quovo": "^0.0.1",
 		"@ctx-core/riot": "^2.1.0",
-		"@ctx-core/route": "^3.0.17",
-		"@ctx-core/rpc": "^2.0.34",
+		"@ctx-core/route": "^3.0.18",
+		"@ctx-core/rpc": "^2.0.35",
 		"@ctx-core/string": "^2.0.22",
 		"esm": "^3.0.84",
 		"fs-promise": "^2.0.3"
